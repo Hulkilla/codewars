@@ -9,11 +9,17 @@ letters_study = sorted(list(set(study)))
 
 # Ejemplo de uso:
 
-print(letters_array)
-
-print(letters_study)
-
 if letters_array == letters_study: 
     print(True)
 else:
     print(False)
+
+
+import string
+
+def is_pangram(s):
+    s = s.lower()
+    for char in 'abcdefghijklmnopqrstuvwxyz':
+        if char not in s:
+            return False
+    return True
