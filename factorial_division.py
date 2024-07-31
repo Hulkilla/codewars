@@ -11,6 +11,21 @@ def factorial_division(a,b):
 print(factorial_division(5,4))
 
 '''
+¿Cómo funciona la función reduce()?
+
+reduce() toma dos argumentos principales:
+    (1) Una función que toma dos argumentos y devuelve un solo valor.
+    (2) Un iterable cuyos elementos serán procesados por la función.
+
+La función se aplica de manera acumulativa a los elementos del iterable, 
+de izquierda a derecha, de modo que el primer par de elementos se reduce a un solo valor, 
+luego este valor se combina con el siguiente elemento, y así sucesivamente.
+'''
+
+
+
+
+'''
  Python program to find the factorial of a number provided by the user using recursion
 
 def factorial(x):
